@@ -29,7 +29,7 @@ To set up a virtual environment and install dependencies, follow these steps:
 5. Once the virtual environment is activated, install the required packages: `pip install -r requirements.txt`
 
 ## Usage
-1. Ensure the data files are located in the `data` directory.
+1. Ensure the data files are located in a `data` folder, created at the root of this repository.
 2. Activate the virtual environment:
    - On Windows: `venv\Scripts\activate`
    - On MacOS/Linux: `source venv/bin/activate`
