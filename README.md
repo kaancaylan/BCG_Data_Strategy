@@ -33,4 +33,4 @@ To set up a virtual environment and install dependencies, follow these steps:
 2. Activate the virtual environment:
    - On Windows: `venv\Scripts\activate`
    - On MacOS/Linux: `source venv/bin/activate`
-3. Run `main.py` to predict the churn in clients.
+3. Run `python3 main.py` to predict the churn in clients.
