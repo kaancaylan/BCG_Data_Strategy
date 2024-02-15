@@ -38,7 +38,7 @@ y_train = train_df['churn']
 X_test = test_df.drop('churn', axis=1)
 y_test = test_df['churn']
 
-model = xgb.XGBClassifier(colsample_bytree=0.7, learning_rate=0.1, max_depth=4, min_child_weight=4, n_estimators=200)
+model = xgb.XGBClassifier(colsample_bytree=0.7, learning_rate=0.1, max_depth=4, min_child_weight=4, n_estimators=200) # Best parameters from Grid search
 model.fit(X_train, y_train)
 
 # Predictions and output
